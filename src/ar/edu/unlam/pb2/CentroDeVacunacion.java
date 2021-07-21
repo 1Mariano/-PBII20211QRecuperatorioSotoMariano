@@ -76,6 +76,22 @@ public class CentroDeVacunacion {
 	public void setPersonasVacunadas(Map<Integer, Persona> personasVacunadas) {
 		PersonasVacunadas = personasVacunadas;
 	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Set<Persona> getFilaDePersona() {
+		return filaDePersona;
+	}
+
+	public void setFilaDePersona(Set<Persona> filaDePersona) {
+		this.filaDePersona = filaDePersona;
+	}
 	
 	
 }
